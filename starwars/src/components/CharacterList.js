@@ -22,7 +22,7 @@ function CharacterList(){
     }, [])
 
     return(
-        <div>
+        <div className='container'>
             {characterState.map(char => {
                 return  (
                     <CharacterCard 
